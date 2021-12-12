@@ -19,7 +19,7 @@ public class PostmanEcho {
         // Проверки
         .then()
             .statusCode(200)
-            .body("data", equalTo("{ \"phone\": \"8 (800)-000-12-33\" }"))
+            .body("data", equalTo("{ \"phone\": \"8 (800)-000-12-34\" }"))
         ;
     }
 }
